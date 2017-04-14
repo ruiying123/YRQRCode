@@ -97,6 +97,7 @@
 		A7A9B27B1EA0AF9700029D6E /* YRQRCode */ = {
 			isa = PBXGroup;
 			children = (
+				A7A9B2AA1EA0AFCD00029D6E /* Sources */,
 				A7A9B27C1EA0AF9700029D6E /* AppDelegate.swift */,
 				A7A9B27E1EA0AF9700029D6E /* ViewController.swift */,
 				A7A9B2801EA0AF9700029D6E /* Main.storyboard */,
@@ -123,6 +124,13 @@
 				A7A9B29E1EA0AF9700029D6E /* Info.plist */,
 			);
 			path = YRQRCodeUITests;
+			sourceTree = "<group>";
+		};
+		A7A9B2AA1EA0AFCD00029D6E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,7 +364,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -400,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
